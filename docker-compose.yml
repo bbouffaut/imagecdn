@@ -5,8 +5,6 @@ services:
       context: .
     image: imagecdn/imagecdn:v1
     container_name: imagecdn
-    volumes:
-      - ./src:/srv/image-service/src
     ports:
       - "8100:80"
     environment:

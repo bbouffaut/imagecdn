@@ -11,4 +11,4 @@ RUN npm install
 COPY ./ ./
 
 # Begin application
-CMD make start PORT=$PORT DEBUG=$DEBUG ENV=$SYMFONY_ENV
+CMD npm run start 
